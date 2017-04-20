@@ -111,7 +111,7 @@ class MQ3():
     def MQGetGasPercentage(self, rs_ro_ratio, gas_id):
         if ( gas_id == self.GAS_ALCOHOL ):
             return self.MQGetPercentage(rs_ro_ratio, self.AlcoholCurve)
-        else
+        else:
         return 0
      
     #########################  MQGetPercentage #################################
